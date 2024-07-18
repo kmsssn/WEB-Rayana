@@ -1,0 +1,77 @@
+body{
+   margin: 0; 
+}
+
+h1{
+padding:30px ;
+margin: 0px;
+}
+
+.text{
+margin: 0;
+padding: 20px;
+}
+
+header{
+height:200px ; /*высота блока*/
+background-color: rgb(2, 7, 49);/*цвет фона*/
+color: rgb(241, 168, 85);/*цвет текста*/
+text-align: center;
+font-size: 30px;
+
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqliqRG_nOw9i-FWnVwdoq6IOiSOinJct69g&s");
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+
+}
+main{
+    background-color: rgb(34, 43, 33);/*цвет фона*/
+    color: rgb(255, 255, 255);/*цвет текста*/
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+
+    background-image: url(https://play-lh.googleusercontent.com/da-2LlxaKMvNn1S0TOSLXVGLohcju-6DiHR3pkp9O7LtkDWvA68CBFnXnhJC2kPbjw);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    }
+.left{
+    width: 50%;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.right{
+    width: 50%;
+    text-align: center;
+}
+
+footer{
+        height:300px ; /*высота блока*/
+        background-color: rgb(77, 22, 22);/*цвет фона*/
+        color: rgb(255, 0, 0);/*цвет текста*/
+        text-align: center;
+        font-size: 30px;
+        padding-top: 20px;
+
+
+background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5e55ed94-c2c1-4c87-8224-dbc7cf942e86/dghu9pb-edde4428-0c0b-4edf-a610-c9bcd9e89b19.jpg/v1/fill/w_1192,h_670,q_70,strp/i_made_a_suspects_mystery_mansion_colorful_stuff_by_juwonbabs_dghu9pb-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvNWU1NWVkOTQtYzJjMS00Yzg3LTgyMjQtZGJjN2NmOTQyZTg2XC9kZ2h1OXBiLWVkZGU0NDI4LTBjMGItNGVkZi1hNjEwLWM5YmNkOWU4OWIxOS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.73QG8H8Q3xor6xcfyQSrVV16zwa-XDcRhXOnLnAFvtQ);
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+
+}
+
+.social img{
+width: 100px;
+padding-left: 10px;
+}
+
+.social{
+list-style: none;
+display: flex;
+justify-content: left;
+}
